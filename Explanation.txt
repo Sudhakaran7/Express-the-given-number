@@ -1,0 +1,53 @@
+You are given with a positve number n and a target number, we have to perform in form of n (operation) n ......
+and we have to get the target, the operation may be addition, subtraction, multiplication and division
+When writing such an expression, we adhere to the following conventions:
+The division operator (/) returns rational numbers.
+There are no parentheses placed anywhere.
+We use the usual order of operations: multiplication and division happens before addition and subtraction.
+It's not allowed to use the unary negation operator (-).  For example, "n - n" is a valid expression as it only uses subtraction, but "-n + n" is not because it uses negation.
+We would like to write an expression with the least number of operators such that the expression equals the given target.  Return the least number of operators used
+
+Input Description:
+Two integers, n and target. (1<n,target<1000)
+
+Output Description:
+Print the least number of operators used
+
+Sample Input:
+4 13
+
+Sample Output:
+4
+
+Explanation:
+The operation is 4 + 4 + 4 + 4 / 4 = 13
+
+Sample Input:
+12 777
+
+Sample Output:
+20
+
+Sample Input:
+45 890
+
+Sample Output:
+39
+
+Sample Input:
+67 342
+
+Sample Output:
+18
+
+Sample Input:
+18 999
+
+Sample Output:
+24
+
+Sample Input:
+89 92
+
+Sample Output:
+6
